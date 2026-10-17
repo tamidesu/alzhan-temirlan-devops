@@ -1,0 +1,5 @@
+Name: Temirlan
+Surname: Alzhan
+Group: IT2-2307
+Student ID: 38372
+Course: DevOps
