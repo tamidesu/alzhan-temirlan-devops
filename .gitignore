@@ -3,3 +3,4 @@ backup/
 .env
 __pycache__/
 *.py[cod]
+practice_task1/
