@@ -78,7 +78,7 @@ pipeline {
                       "$IMAGE_NAME:$IMAGE_TAG"
 
                     curl --fail --silent --show-error \
-                      --retry 10 --retry-connrefused \
+                      --retry 10 --retry-all-errors --retry-max-time 40 \
                       --retry-delay 1 --max-time 3 \
                       http://127.0.0.1:8000/ \
                       -o application-response.txt
