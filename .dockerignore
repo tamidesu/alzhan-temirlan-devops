@@ -1,0 +1,7 @@
+.git
+.env
+logs/
+backup/
+practice_task1/
+**/__pycache__/
+*.pyc
